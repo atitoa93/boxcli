@@ -93,37 +93,9 @@ Command Topics
 # Command Topics
 
 * [`box autocomplete`](docs/autocomplete.md) - Display autocomplete installation instructions
-* [`box collaboration-allowlist`](docs/collaboration-allowlist.md) - List collaboration allowlist entries
-* [`box collaborations`](docs/collaborations.md) - Manage collaborations
-* [`box collections`](docs/collections.md) - List your collections
-* [`box comments`](docs/comments.md) - Manage comments on files
 * [`box configure`](docs/configure.md) - Configure the Box CLI
-* [`box device-pins`](docs/device-pins.md) - List all the device pins for your enterprise
-* [`box events`](docs/events.md) - Get events
-* [`box files`](docs/files.md) - Manage files
-* [`box folders`](docs/folders.md) - Manage folders
-* [`box groups`](docs/groups.md) - List all groups
 * [`box help`](docs/help.md) - Display help for the Box CLI
-* [`box legal-hold-policies`](docs/legal-hold-policies.md) - List legal hold policies
-* [`box metadata-cascade-policies`](docs/metadata-cascade-policies.md) - List the metadata cascade policies on a folder
-* [`box metadata-query`](docs/metadata-query.md) - Create a search using SQL-like syntax to return items that match specific metadata
-* [`box metadata-templates`](docs/metadata-templates.md) - Get all metadata templates in your Enterprise
-* [`box oss`](docs/oss.md) - Print a list of open-source licensed packages used in the Box CLI
-* [`box recent-items`](docs/recent-items.md) - List information about files accessed in the past 90 days up to a 1000 items
-* [`box request`](docs/request.md) - Manually specify a Box API request
-* [`box retention-policies`](docs/retention-policies.md) - List all retention policies for your enterprise
-* [`box search`](docs/search.md) - Search for files and folders in your Enterprise
-* [`box shared-links`](docs/shared-links.md) - Manage shared links
-* [`box sign-requests`](docs/sign-requests.md) - Manage sign requests
-* [`box storage-policies`](docs/storage-policies.md) - List storage policies
-* [`box tasks`](docs/tasks.md) - Manage tasks
-* [`box terms-of-service`](docs/terms-of-service.md) - List terms of services for your enterprise
-* [`box tokens`](docs/tokens.md) - Get a token. Returns the service account token by default
-* [`box trash`](docs/trash.md) - List all items in trash
-* [`box users`](docs/users.md) - List all Box users
-* [`box watermarking`](docs/watermarking.md) - Apply a watermark on an item
-* [`box web-links`](docs/web-links.md) - Manage web links
-* [`box webhooks`](docs/webhooks.md) - List all webhooks
+* [`box users`](docs/users.md) - Delete pre populated content for list of users
 
 <!-- commandsstop -->
 
