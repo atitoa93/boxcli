@@ -54,7 +54,7 @@ const REQUIRED_FIELDS = [
 ];
 
 const SDK_CONFIG = Object.freeze({
-	iterators: true,
+	iterators: false,
 	analyticsClient: {
 		name: 'box-cli',
 		version: pkg.version,
