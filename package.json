@@ -71,7 +71,7 @@
 	],
 	"oclif": {
 		"commands": "./src/commands",
-		"bin": "box",
+		"bin": "box-dppc",
 		"hooks": {
 			"init": [
 				"./src/hooks/init/verbose"

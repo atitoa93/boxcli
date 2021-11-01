@@ -1,23 +1,23 @@
-`box configure`
-===============
+`box-dppc configure`
+====================
 
 Configure the Box CLI
 
-* [`box configure:environments:add PATH`](#box-configureenvironmentsadd-path)
-* [`box configure:environments:delete [NAME]`](#box-configureenvironmentsdelete-name)
-* [`box configure:environments:get`](#box-configureenvironmentsget)
-* [`box configure:environments:set-current [NAME]`](#box-configureenvironmentsset-current-name)
-* [`box configure:environments:switch-user [USERID]`](#box-configureenvironmentsswitch-user-userid)
-* [`box configure:environments:update [NAME]`](#box-configureenvironmentsupdate-name)
-* [`box configure:settings`](#box-configuresettings)
+* [`box-dppc configure:environments:add PATH`](#box-dppc-configureenvironmentsadd-path)
+* [`box-dppc configure:environments:delete [NAME]`](#box-dppc-configureenvironmentsdelete-name)
+* [`box-dppc configure:environments:get`](#box-dppc-configureenvironmentsget)
+* [`box-dppc configure:environments:set-current [NAME]`](#box-dppc-configureenvironmentsset-current-name)
+* [`box-dppc configure:environments:switch-user [USERID]`](#box-dppc-configureenvironmentsswitch-user-userid)
+* [`box-dppc configure:environments:update [NAME]`](#box-dppc-configureenvironmentsupdate-name)
+* [`box-dppc configure:settings`](#box-dppc-configuresettings)
 
-## `box configure:environments:add PATH`
+## `box-dppc configure:environments:add PATH`
 
 Add a new Box environment
 
 ```
 USAGE
-  $ box configure:environments:add PATH
+  $ box-dppc configure:environments:add PATH
 
 ARGUMENTS
   PATH  Provide a file path to configuration file
@@ -34,13 +34,13 @@ OPTIONS
 
 _See code: [src/commands/configure/environments/add.js](https://github.com/box/boxcli/blob/v2.9.0/src/commands/configure/environments/add.js)_
 
-## `box configure:environments:delete [NAME]`
+## `box-dppc configure:environments:delete [NAME]`
 
 Delete a Box environment
 
 ```
 USAGE
-  $ box configure:environments:delete [NAME]
+  $ box-dppc configure:environments:delete [NAME]
 
 ARGUMENTS
   NAME  Name of the environment
@@ -54,13 +54,13 @@ OPTIONS
 
 _See code: [src/commands/configure/environments/delete.js](https://github.com/box/boxcli/blob/v2.9.0/src/commands/configure/environments/delete.js)_
 
-## `box configure:environments:get`
+## `box-dppc configure:environments:get`
 
 Get a Box environment
 
 ```
 USAGE
-  $ box configure:environments:get
+  $ box-dppc configure:environments:get
 
 OPTIONS
   -c, --current    Get the current default Box environment
@@ -73,13 +73,13 @@ OPTIONS
 
 _See code: [src/commands/configure/environments/get.js](https://github.com/box/boxcli/blob/v2.9.0/src/commands/configure/environments/get.js)_
 
-## `box configure:environments:set-current [NAME]`
+## `box-dppc configure:environments:set-current [NAME]`
 
 Set your current Box environment to use
 
 ```
 USAGE
-  $ box configure:environments:set-current [NAME]
+  $ box-dppc configure:environments:set-current [NAME]
 
 ARGUMENTS
   NAME  Name of the environment
@@ -91,18 +91,18 @@ OPTIONS
   --no-color     Turn off colors for logging
 
 ALIASES
-  $ box configure:environments:select
+  $ box-dppc configure:environments:select
 ```
 
 _See code: [src/commands/configure/environments/set-current.js](https://github.com/box/boxcli/blob/v2.9.0/src/commands/configure/environments/set-current.js)_
 
-## `box configure:environments:switch-user [USERID]`
+## `box-dppc configure:environments:switch-user [USERID]`
 
 Switch the default Box user to run commands as
 
 ```
 USAGE
-  $ box configure:environments:switch-user [USERID]
+  $ box-dppc configure:environments:switch-user [USERID]
 
 ARGUMENTS
   USERID  The user ID to switch to
@@ -126,13 +126,13 @@ OPTIONS
 
 _See code: [src/commands/configure/environments/switch-user.js](https://github.com/box/boxcli/blob/v2.9.0/src/commands/configure/environments/switch-user.js)_
 
-## `box configure:environments:update [NAME]`
+## `box-dppc configure:environments:update [NAME]`
 
 Update a Box environment
 
 ```
 USAGE
-  $ box configure:environments:update [NAME]
+  $ box-dppc configure:environments:update [NAME]
 
 ARGUMENTS
   NAME  The name of the environment
@@ -160,13 +160,13 @@ OPTIONS
 
 _See code: [src/commands/configure/environments/update.js](https://github.com/box/boxcli/blob/v2.9.0/src/commands/configure/environments/update.js)_
 
-## `box configure:settings`
+## `box-dppc configure:settings`
 
 View and update CLI configuration settings
 
 ```
 USAGE
-  $ box configure:settings
+  $ box-dppc configure:settings
 
 OPTIONS
   -h, --help                                     Show CLI help

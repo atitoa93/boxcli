@@ -92,10 +92,10 @@ Command Topics
 <!-- commands -->
 # Command Topics
 
-* [`box autocomplete`](docs/autocomplete.md) - Display autocomplete installation instructions
-* [`box configure`](docs/configure.md) - Configure the Box CLI
-* [`box help`](docs/help.md) - Display help for the Box CLI
-* [`box users`](docs/users.md) - Delete pre populated content for list of users
+* [`box-dppc autocomplete`](docs/autocomplete.md) - Display autocomplete installation instructions
+* [`box-dppc configure`](docs/configure.md) - Configure the Box CLI
+* [`box-dppc help`](docs/help.md) - Display help for the Box CLI
+* [`box-dppc users`](docs/users.md) - Delete pre populated content for provided user id
 
 <!-- commandsstop -->
 

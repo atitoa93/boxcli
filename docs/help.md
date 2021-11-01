@@ -1,17 +1,17 @@
-`box help`
-==========
+`box-dppc help`
+===============
 
 Display help for the Box CLI
 
-* [`box help [COMMAND]`](#box-help-command)
+* [`box-dppc help [COMMAND]`](#box-dppc-help-command)
 
-## `box help [COMMAND]`
+## `box-dppc help [COMMAND]`
 
-display help for box
+display help for box-dppc
 
 ```
 USAGE
-  $ box help [COMMAND]
+  $ box-dppc help [COMMAND]
 
 ARGUMENTS
   COMMAND  command to show help for

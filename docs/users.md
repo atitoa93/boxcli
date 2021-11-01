@@ -1,17 +1,17 @@
-`box users`
-===========
+`box-dppc users`
+================
 
-Delete pre populated content for list of users
+Delete pre populated content for provided user id
 
-* [`box users:delete-pre-populated-content USERID`](#box-usersdelete-pre-populated-content-userid)
+* [`box-dppc users:delete-pre-populated-content USERID`](#box-dppc-usersdelete-pre-populated-content-userid)
 
-## `box users:delete-pre-populated-content USERID`
+## `box-dppc users:delete-pre-populated-content USERID`
 
-Delete pre populated content for list of users
+Delete pre populated content for provided user id
 
 ```
 USAGE
-  $ box users:delete-pre-populated-content USERID
+  $ box-dppc users:delete-pre-populated-content USERID
 
 ARGUMENTS
   USERID  User ID to delete their pre populated content
